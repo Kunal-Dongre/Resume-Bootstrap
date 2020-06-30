@@ -1,0 +1,312 @@
+body {
+    scroll-behavior: smooth;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #c3edea;
+}
+
+.navbar-brand img{
+    width: 80px;
+    height: 70px;
+}
+
+/* .profile {
+    width: 100px;
+    height: 90px;
+    padding-top: 15px;
+    position: relative;
+    left: 100px;
+} */
+
+.nav-link{
+    /* display: inline; */
+    font-size: 1.5rem;
+    color: #007892;   
+}
+
+.nav-link:hover {
+    background-color: #35d0ba;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+/* --------------------------div 1-------------------------- */
+
+.cf2 {
+    position: relative;
+    background-color: #c3edea;
+    width: 100%;
+}
+
+.cloud1 {
+    position: relative;
+    width: 300px;
+    height: 220px;
+}
+
+.cloud2 {
+    position: relative;
+    width: 300px;
+    height: 220px;
+}
+
+.neonwork{
+    width: 370px;
+    height: 170px;
+    position: relative;
+}
+
+.flag1{
+    width: 125px;
+    height: 240px;
+    position: relative;
+    right: 10px;
+}
+.flag2{
+    width: 120px;
+    height: 240px;
+    position: relative;
+    right: 10px;
+}
+
+/* --------------------div2----------------------- */
+
+.pencil{
+    width: 130px;
+    height: 130px;
+    margin-top: 100px;
+}
+
+.title{
+    font-family: 'Cormorant Garamond', serif;
+    color: #7DCC93;
+    font-size: xx-large;
+    margin: 30px 0;
+}
+
+.description{
+    color: gray;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: x-large;
+}
+
+
+/* -----------------------div3---------------------------- */
+
+.div3{
+    background-color: #7DCC93;
+    width: 100%;
+    height: 780px;
+}
+
+.image1{
+    padding-top: 50px;
+    width: 650px;
+    height: 450px;
+}
+
+.title1{
+    margin-top: 80px;
+    font-family: 'Cormorant Garamond', serif;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.description1{
+    font-family: 'Cormorant Garamond', serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+/* ---------------------div4--------------------- */
+
+.div4{
+    background-color: #F76160;
+    /* width: 100%; */
+    height: 1050px;
+}
+
+.image2{
+    padding-top: 50px;
+    width: 650px;
+    height: 700px;
+}
+
+.title2{
+    margin-top: 80px;
+    font-family: 'Cormorant Garamond', serif;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.description2{
+    font-family: 'Cormorant Garamond', serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+/* ---------------------div5--------------------- */
+
+.div5{
+    background-color: #31355B;
+    width: 100%;
+    height: 1050px;
+}
+
+.image3{
+    padding-top: 50px;
+    width: 650px;
+    height: 700px;
+}
+
+.title3{
+    margin-top: 80px;
+    font-family: 'Cormorant Garamond', serif;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.description3{
+    font-family: 'Cormorant Garamond', serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+/* ---------------------div6--------------------- */
+
+.div6{
+    width: 100%;
+    height: 380px;
+}
+
+.quality2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #007892;
+    font-size:50px;
+
+}
+
+.title4{
+    font-family: 'Cormorant Garamond', serif;
+    color:#007892 ;
+
+}
+
+.description4 {
+    color: #565d47;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+
+/* ------------------------------Foot div 1----------------------------------------- */
+.footup{
+    width: 100%;
+    text-align: center;
+}
+.message{
+    color:#c3edea ;
+    background: #007892;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 0;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 100px;
+}
+
+
+.far{
+    padding-right: 9px;
+}
+
+/* ------------------------------Foot div----------------------------------------- */
+.foot {
+    background-color: #c3edea;
+    position: relative;
+    top: 30px;
+}
+
+.socialmedia {
+    color: #007892;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: larger;
+}
+.socialmedia1 {
+    color: #007892;
+    text-decoration: none;
+    padding: 20px;
+    /* padding-bottom: 30px; */
+}
+
+
+@media screen and (max-width:599px){ 
+    .image1{
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+
+    .title1{
+        margin-top: 80px;
+        font-family: 'Cormorant Garamond', serif;
+        color: whitesmoke;
+        font-size: 40px;
+    }
+    
+    .description1{
+        font-family: 'Cormorant Garamond', serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    .image2{
+        padding-top: 50px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .title2{
+        margin-top: 80px;
+        font-family: 'Cormorant Garamond', serif;
+        color: whitesmoke;
+        font-size: 40px;
+    }
+    
+    .description2{
+        font-family: 'Cormorant Garamond', serif;
+        color: whitesmoke;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .image3{
+        padding-top: 50px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .message{
+        color:#c3edea ;
+        background: #007892;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 16px;
+        text-align: center;
+        padding: 15px 30px 15px 30px;
+        text-decoration: none;
+        border-radius: 3px;
+        border: 0;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 10px;
+    }
+}
